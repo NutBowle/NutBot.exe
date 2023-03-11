@@ -8,6 +8,9 @@ const client = new Client({
     partials: [User, Message, GuildMember, ThreadMember],
 });
 
+
+//This is the section that will respond once the bot is turned on.
+
 client.once('ready', () => {
     console.log("Ready");
 });
